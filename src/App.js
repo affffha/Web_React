@@ -1,16 +1,9 @@
+
 import React from 'react';
-import MsgBox from './class-props';
+import { EvenData2 } from './event-data';
 
 function App() {
-  return (
-    <MsgBox
-      text="React & React Native"
-      color="red"
-      bgColor="#ccc"
-      fontSize="18pt"
-      border="solid 3px black"
-    />
-  )
+  return <EvenData2/>;
 }
 
 export default App;
