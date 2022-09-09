@@ -25,6 +25,8 @@ export default function RefsArray(){
         tr.current[i].style.backgroundColor= 'white'
     }
 
+    const tableStyle= {margin:'auto', marginTop:40}
+
     return(
         <table ref={table} border="1" cellPadding={5} style={tableStyle}>
             <tr><th>Product</th><th>Price</th><th>Delete</th></tr>
@@ -43,7 +45,6 @@ export default function RefsArray(){
                 )
             })
         }
-
         </table>
     )
 }
